@@ -52,7 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				076CC1E42A6B72A1007B3609 /* NDP_appApp.swift */,
-				076CC1E62A6B72A1007B3609 /* ContentView.swift */,
+				076CC1F32A6B72D0007B3609 /* Backend */,
+				076CC1F22A6B72BE007B3609 /* Views */,
 				076CC1E82A6B72A3007B3609 /* Assets.xcassets */,
 				076CC1EA2A6B72A3007B3609 /* Preview Content */,
 			);
@@ -65,6 +66,21 @@
 				076CC1EB2A6B72A3007B3609 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		076CC1F22A6B72BE007B3609 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				076CC1E62A6B72A1007B3609 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		076CC1F32A6B72D0007B3609 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Backend;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
