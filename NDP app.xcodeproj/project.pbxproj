@@ -12,6 +12,9 @@
 		076CC1E92A6B72A3007B3609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076CC1E82A6B72A3007B3609 /* Assets.xcassets */; };
 		076CC1EC2A6B72A3007B3609 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076CC1EB2A6B72A3007B3609 /* Preview Assets.xcassets */; };
 		076CC1F52A6B763A007B3609 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076CC1F42A6B763A007B3609 /* Persistence.swift */; };
+		076CC1F72A6B7C52007B3609 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076CC1F62A6B7C52007B3609 /* Data.swift */; };
+		076CC1F92A6B7D2A007B3609 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076CC1F82A6B7D2A007B3609 /* HomeView.swift */; };
+		076CC1FC2A6B7DBE007B3609 /* LikeElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076CC1FB2A6B7DBD007B3609 /* LikeElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		076CC1E82A6B72A3007B3609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		076CC1EB2A6B72A3007B3609 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		076CC1F42A6B763A007B3609 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		076CC1F62A6B7C52007B3609 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		076CC1F82A6B7D2A007B3609 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		076CC1FB2A6B7DBD007B3609 /* LikeElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +79,9 @@
 		076CC1F22A6B72BE007B3609 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				076CC1FA2A6B7DA8007B3609 /* Elements */,
 				076CC1E62A6B72A1007B3609 /* ContentView.swift */,
+				076CC1F82A6B7D2A007B3609 /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -81,9 +89,18 @@
 		076CC1F32A6B72D0007B3609 /* Backend */ = {
 			isa = PBXGroup;
 			children = (
+				076CC1F62A6B7C52007B3609 /* Data.swift */,
 				076CC1F42A6B763A007B3609 /* Persistence.swift */,
 			);
 			path = Backend;
+			sourceTree = "<group>";
+		};
+		076CC1FA2A6B7DA8007B3609 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				076CC1FB2A6B7DBD007B3609 /* LikeElement.swift */,
+			);
+			path = Elements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +176,9 @@
 				076CC1F52A6B763A007B3609 /* Persistence.swift in Sources */,
 				076CC1E72A6B72A1007B3609 /* ContentView.swift in Sources */,
 				076CC1E52A6B72A1007B3609 /* NDP_appApp.swift in Sources */,
+				076CC1FC2A6B7DBE007B3609 /* LikeElement.swift in Sources */,
+				076CC1F92A6B7D2A007B3609 /* HomeView.swift in Sources */,
+				076CC1F72A6B7C52007B3609 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
