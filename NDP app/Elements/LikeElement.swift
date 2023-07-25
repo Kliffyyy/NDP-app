@@ -21,10 +21,7 @@ struct LikeElement: View {
             .padding(2)
             .cornerRadius(5)
             .onTapGesture {
-                withAnimation(.interpolatingSpring(stiffness: 50, damping: 2)) {
-                    like!.toggle()
-                    size = (size == Sizes.large.rawValue ? Sizes.defaultSize : Sizes.large).rawValue
-                }
+                like!.toggle()
             }
     }
 }

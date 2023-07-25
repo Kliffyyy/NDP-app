@@ -8,16 +8,23 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @ObservedObject var videoManager: VideoManager = .shared
+    
     var body: some View {
         NavigationView {
-            VStack {
-                ForEach() {
-                    NavigationLink {
-                        <#code#>
+            List {
+                ForEach(NationalDayVideos) { video in
+                    HStack {
+                        Text(video.title)
+                            .lineLimit(1)
+                        Spacer()
+                        LikeElement(like: video.like)
+                    }
                 }
             }
+            .navigationTitle("Home")
         }
-        .navigationTitle("Home")
     }
 }
 

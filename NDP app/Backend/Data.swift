@@ -23,7 +23,7 @@ enum Sizes: Double {
     case large = 30
 }
 
-let NationalDayYears : [Video] = [
+let NationalDayVideos : [Video] = [
     .init(title: "2023 - Shine Your Light  ", year: 2023, link: URL(string: "https://www.musicaltouch.sg/post/ndp-songs#viewer-6dsg4:~:text=1.%20Shine%20Your%20Light%20(2023)%20by%2053A%2C%20The%20Island%20Voices%2C%20lewloh%2C%20Olivia%20Ong%2C%20ShiGGa%20Shay%2C%20Iman%20Fandi%2C%20Lineath")),
     .init(title: "Stronger Together (2022) by Taufik Batisah", year: 2022, link: URL(string: "https://www.musicaltouch.sg/post/ndp-songs#viewer-6dsg4:~:text=Stronger%20Together%20(2022)%20by%20Taufik%20Batisah")),
     .init(title: " The Road Ahead (2021) by Linying, Sezairi Sezali, Shye and Shabir", year: 2021, link: URL(string: "https://www.musicaltouch.sg/post/ndp-songs#viewer-6dsg4:~:text=The%20Road%20Ahead%20(2021)%20by%20Linying%2C%20Sezairi%20Sezali%2C%20Shye%20and%20Shabir")),
@@ -53,14 +53,14 @@ let NationalDayYears : [Video] = [
     .init(title: "'Singapore Town (1997)' by The Sidaislers", year: 1997, link: URL(string: "https://www.musicaltouch.sg/post/ndp-songs#viewer-6dsg4:~:text=%22Singapore%20Town%20(1997)%22%20by%20The%20Sidaislers")),
     .init(title: "'Count On Me Singapore (1996)' by Clement Chow", year: 1996, link: URL(string: "https://www.musicaltouch.sg/post/ndp-songs#viewer-6dsg4:~:text=%22Count%20On%20Me%20Singapore%20(1996)%22%20by%20Clement%20Chow")),
     .init(title: "'My People My Home (1995)' by Dr Lee Tzu Pheng", year: 1995, link: URL(string: "https://www.musicaltouch.sg/post/ndp-songs#viewer-6dsg4:~:text=%22My%20People%20My%20Home%20(1995)%22%20by%20Dr%20Lee%20Tzu%20Pheng")),
-    .init(title: "none", year: 1994),
-    .init(title: "none", year: 1993),
-    .init(title: "none", year: 1992),
+    .init(title: "No NDP song oddly", year: 1994),
+    .init(title: "No NDP song oddly", year: 1993),
+    .init(title: "No NDP song oddly", year: 1992),
     .init(title: "'It's the Little Things (1991)' by Patrick Seet and Ivan Chua", year: 1991, link: URL(string: "https://www.musicaltouch.sg/post/ndp-songs#viewer-6dsg4:~:text=%22It%27s%20the%20Little%20Things%20(1991)%22%20by%20Patrick%20Seet%20and%20Ivan%20Chua")),
     .init(title: "'One People, One Nation, One Singapore (1990)' by Faridah Ali, Jacintha Abisheganaden, Stephen Francis and Clement Chow", year: 1990, link: URL(string: "https://www.musicaltouch.sg/post/ndp-songs#viewer-6dsg4:~:text=%22One%20People%2C%20One%20Nation%2C%20One%20Singapore%20(1990)%22%20by%20Faridah%20Ali%2C%20Jacintha%20Abisheganaden%2C%20Stephen%20Francis%20and%20Clement%20Chow")),
     .init(title: "'Five Stars Arising (1989)' by Lim Su Chong", year: 1989, link: URL(string: "https://www.musicaltouch.sg/post/ndp-songs#viewer-6dsg4:~:text=%22Five%20Stars%20Arising%20(1989)%22%20by%20Lim%20Su%20Chong")),
     .init(title: "'We are Singapore (1987-1988)' by Jonathan Tan, Roslinda Baharudin, Anne Weerapass and Robert Fernando", year: 1988, link: URL(string: "https://www.musicaltouch.sg/post/ndp-songs#viewer-6dsg4:~:text=%22We%20are%20Singapore%20(1987%2D1988)%22%20by%20Jonathan%20Tan%2C%20Roslinda%20Baharudin%2C%20Anne%20Weerapass%20and%20Robert%20Fernando")),
-    .init(title: "1988", year: 1987, link: URL(string: "https://www.musicaltouch.sg/post/ndp-songs#viewer-6dsg4:~:text=%22We%20are%20Singapore%20(1987%2D1988)%22%20by%20Jonathan%20Tan%2C%20Roslinda%20Baharudin%2C%20Anne%20Weerapass%20and%20Robert%20Fernando")),
+    .init(title: "^^^1988^^^", year: 1987, link: URL(string: "https://www.musicaltouch.sg/post/ndp-songs#viewer-6dsg4:~:text=%22We%20are%20Singapore%20(1987%2D1988)%22%20by%20Jonathan%20Tan%2C%20Roslinda%20Baharudin%2C%20Anne%20Weerapass%20and%20Robert%20Fernando")),
     .init(title: "'Count On Me Singapore (1986)' by Clement Chow", year: 1986, link: URL(string: "https://www.musicaltouch.sg/post/ndp-songs#viewer-6dsg4:~:text=%22Count%20On%20Me%20Singapore%20(1986)%22%20by%20Clement%20Chow")),
     .init(title: "'Stand Up for Singapore (1984-1985)' by Hugh Harrison ", year: 1985, link: URL(string: "https://www.musicaltouch.sg/post/ndp-songs#viewer-6dsg4:~:text=%22Stand%20Up%20for%20Singapore%20(1984%2D1985)%22%20by%20Hugh%20Harrison")),
-    .init(title: "1985", year: 1984, link: URL(string: "https://www.musicaltouch.sg/post/ndp-songs#viewer-6dsg4:~:text=%22Stand%20Up%20for%20Singapore%20(1984%2D1985)%22%20by%20Hugh%20Harrison")),]
+    .init(title: "^^^1985^^^", year: 1984, link: URL(string: "https://www.musicaltouch.sg/post/ndp-songs#viewer-6dsg4:~:text=%22Stand%20Up%20for%20Singapore%20(1984%2D1985)%22%20by%20Hugh%20Harrison")),]
