@@ -16,7 +16,7 @@ struct HomeView: View {
             List {
                 ForEach(NationalDayVideos) { video in
                     HStack {
-                        Text(video.title)
+                        MenuElement(data: video)
                             .lineLimit(1)
                         Spacer()
                         LikeElement(like: video.like)
@@ -24,6 +24,12 @@ struct HomeView: View {
                 }
             }
             .navigationTitle("Home")
+            .toolbar {
+                
+                NavigationLink(destination: SettingsView()) {
+                    Image(systemName: "gearshape.fill")
+                }
+            }
         }
     }
 }
