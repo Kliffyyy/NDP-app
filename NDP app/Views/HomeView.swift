@@ -9,14 +9,16 @@ import SwiftUI
 
 struct HomeView: View {
     
+    @State private var videos = NationalDayVideos
+    
     @ObservedObject var videoManager: VideoManager = .shared
     
     var body: some View {
         NavigationView {
             List {
-                ForEach(NationalDayVideos) { video in
+                ForEach($videos, id: \.id) { video in
                     HStack {
-                        MenuElement(data: video)
+                        MenuElement(data: video.wrappedValue)
                             .lineLimit(1)
                         Spacer()
                         LikeElement(like: video.like)

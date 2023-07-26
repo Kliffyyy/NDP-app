@@ -13,7 +13,6 @@ struct Video: Identifiable, Codable {
     var title: String
     var year: Int
     var link: URL?
-    var lyrics: String?
     var like: Bool? = false
 }
 
@@ -23,7 +22,7 @@ enum Sizes: Double {
     case large = 30
 }
 
-let NationalDayVideos : [Video] = [
+var NationalDayVideos : [Video] = [
     .init(title: "2023 - Shine Your Light  ", year: 2023, link: URL(string: "https://www.musicaltouch.sg/post/ndp-songs#viewer-6dsg4:~:text=1.%20Shine%20Your%20Light%20(2023)%20by%2053A%2C%20The%20Island%20Voices%2C%20lewloh%2C%20Olivia%20Ong%2C%20ShiGGa%20Shay%2C%20Iman%20Fandi%2C%20Lineath")),
     .init(title: "Stronger Together (2022) by Taufik Batisah", year: 2022, link: URL(string: "https://www.musicaltouch.sg/post/ndp-songs#viewer-6dsg4:~:text=Stronger%20Together%20(2022)%20by%20Taufik%20Batisah")),
     .init(title: " The Road Ahead (2021) by Linying, Sezairi Sezali, Shye and Shabir", year: 2021, link: URL(string: "https://www.musicaltouch.sg/post/ndp-songs#viewer-6dsg4:~:text=The%20Road%20Ahead%20(2021)%20by%20Linying%2C%20Sezairi%20Sezali%2C%20Shye%20and%20Shabir")),
