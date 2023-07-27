@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MenuElement: View {
     
-    var data: Video
+    @Binding var data: Video
     
     var body: some View {
         Menu(data.title) {
@@ -24,6 +24,6 @@ struct MenuElement: View {
 
 struct MenuElement_Previews: PreviewProvider {
     static var previews: some View {
-        MenuElement(data: NationalDayVideos.first!)
+        MenuElement(data: .constant(NationalDayVideos.first!))
     }
 }

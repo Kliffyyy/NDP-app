@@ -9,20 +9,20 @@ import SwiftUI
 
 struct LikeElement: View {
     
-    @Binding var like : Bool?
+    @Binding var like : Bool
     @State private var size : Double = Sizes.defaultSize.rawValue
     
     var body: some View {
-        Image(systemName: like! ? "heart.fill" : "heart")
+        Image(systemName: like ? "heart.fill" : "heart")
             .resizable()
-            .foregroundColor( like! ? .red : .blue)
             .scaledToFit()
             .frame(width: size, height: size)
+            .foregroundColor(.red)
+            .onTapGesture {
+                like.toggle()
+            }
             .padding(2)
             .cornerRadius(5)
-            .onTapGesture {
-                like!.toggle()
-            }
     }
 }
 

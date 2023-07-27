@@ -13,7 +13,7 @@ struct Video: Identifiable, Codable {
     var title: String
     var year: Int
     var link: URL?
-    var like: Bool? = false
+    var like: Bool = false
 }
 
 enum Sizes: Double {
